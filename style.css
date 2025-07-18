@@ -32,12 +32,15 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .content-one {
     background-color: #1F2937;
     display: flex;
     padding: 100px 100px;
+    margin: 0;
     justify-content: center;
     gap: 50px;
 }
@@ -82,15 +85,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
+    gap: 20px;
 }
 
 .title {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    padding: 30px;
-    justify-content: flex-start;
+    padding: 20px;
+    justify-content: center;
 }
 
 .cards {
@@ -121,8 +125,6 @@ body {
  .text {
     display: flex;
     flex-direction: column;
-    font-size: 36px;
-    font-weight: 300;
     color: #1F2937;
     font-family: Italic;
     width: 600px;
@@ -132,29 +134,33 @@ body {
  .quote {
     margin: 0;
     padding: 0;
+    font-size: 40px;
+    font-weight: 500;
  }
 
  .author {
     margin: 0;
     padding: 0;
     align-self: flex-end;
-    color:#1F2937;
+    font-size: 20px;
+    font-weight: bold;
  }
 
 .content-four {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 200px;
+    padding: 80px 200px;
 }
 
 .call-to-action {
     display: flex;
     background-color: #3882f6; 
     height: 120px;
+    width: 550px;
     color: white;
     border-radius: 7px;
-    padding: 10px 100px; 
+    padding: 10px 80px; 
     margin: 0;
     justify-content: space-between;
     align-items: center;
@@ -183,9 +189,10 @@ body {
 
 .second-button {
     justify-self: center;
-    width: 80px;
+    width: 100px;
     height: 30px;
     background-color: #3882f6;
+    border-style: solid;
     color: white;
     border-radius: 5px;
     border-color: white;
@@ -203,5 +210,6 @@ body {
 }
 
 .copy {
-    font-weight: 100;
+    font-weight: 300;
+    font-size: 15px;
 }
